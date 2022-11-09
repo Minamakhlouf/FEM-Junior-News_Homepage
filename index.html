@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | News homepage</title>
+</head>
+<body>
+  <main>
+    <div class="dark-background"></div>
+    <header>
+      <div class="logo"><img src="images/logo.svg" alt="Website logo"></div>
+      <nav>
+        <div class="menu-open"><img src="images/icon-menu.svg" alt="menu open button"></div>
+        <ul class="menu-links">
+          <div class="menu-close"><img src="images/icon-menu-close.svg" alt="menu close button"></div>
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </nav>
+    </header>
+    <section class="grid">
+      <div class="sub-grid">
+        <div class="image">
+          <picture>
+            <source srcset="images/image-web-3-desktop.jpg" media="(min-width: 850px)">
+            <img src="images/image-web-3-mobile.jpg" alt="Gaming image" aria-hidden="true">
+          </picture>
+        </div>
+        <h1>The Bright Future of Web 3.0?</h1>
+        <div class="text-and-button">
+            <p class="text">  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?</p>
+            <button>Read more</button>
+        </div>
+      </div>
+      <div class="new">
+        <h2 class="sub-heading">New</h2>
+        <div class="new-article">
+          <h3 class="abstract-heading"><a href="#" aria-label="Hydrogen VS Electric Cars">Hydrogen VS Electric Cars</a></h3>
+          <p class="text">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <div class="new-article">
+          <h3 class="abstract-heading"><a href="#" aria-label="The Downsides of AI Artistry">The Downsides of AI Artistry</a></h3>
+          <p class="text">What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <div class="new-article">
+          <h3 class="abstract-heading"><a href="#" aria-label="Is VC Funding Drying Up?">Is VC Funding Drying Up?</a></h3>
+          <p class="text">  Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+      <div class="top">
+        <div class="top-article">
+          <div class="top-picture"><img src="images/image-retro-pcs.jpg" alt="Computers" aria-hidden="true"></div>
+          <div class="top-text">
+            <div class="number sub-heading">01</div>
+            <h3 class="top-heading"><a href="#" aria-label="Reviving Retro PCs">Reviving Retro PCs</a> </h3>
+            <p class="text">What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="top-article">
+          <div class="top-picture"><img src="images/image-top-laptops.jpg" alt="Laptops" aria-hidden="true"></div>
+          <div class="top-text">
+            <div class="number sub-heading">02</div>
+            <h3 class="top-heading"><a href="#" aria-label="Top 10 Laptops of 2022">Top 10 Laptops of 2022</a> </h3>
+            <p class="text">Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="top-article">
+          <div class="top-picture"><img src="images/image-gaming-growth.jpg" alt="Gaming" aria-hidden="true"></div>
+          <div class="top-text">
+            <div class="number sub-heading">03</div>
+            <h3 class="top-heading"><a href="#" aria-label="The Growth of Gaming">The Growth of Gaming</a> </h3>
+            <p class="text">How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
